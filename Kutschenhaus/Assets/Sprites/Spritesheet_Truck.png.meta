@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: adb73634df82ffc46ba3730595aff0e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8880102615286654603
+    second: Spritesheet_Truck_0
+  - first:
+      213: 1214154466877828169
+    second: Spritesheet_Truck_1
+  - first:
+      213: -1897885902925712319
+    second: Spritesheet_Truck_2
+  - first:
+      213: 74422192604885446
+    second: Spritesheet_Truck_3
+  - first:
+      213: -2777891550316534160
+    second: Spritesheet_Truck_4
+  - first:
+      213: 1065128954825821913
+    second: Spritesheet_Truck_5
+  - first:
+      213: -6975498297180741350
+    second: Spritesheet_Truck_6
+  - first:
+      213: -2674231905777438566
+    second: Spritesheet_Truck_7
+  - first:
+      213: -6932324348450529205
+    second: Spritesheet_Truck_8
+  - first:
+      213: -2132878046915630445
+    second: Spritesheet_Truck_9
+  - first:
+      213: -5172224655235048503
+    second: Spritesheet_Truck_10
+  - first:
+      213: -8887843960193496425
+    second: Spritesheet_Truck_11
+  - first:
+      213: 434949383564509166
+    second: Spritesheet_Truck_12
+  - first:
+      213: -6245506191610393339
+    second: Spritesheet_Truck_13
+  - first:
+      213: 2591996999041868104
+    second: Spritesheet_Truck_14
+  - first:
+      213: 3507878712885327791
+    second: Spritesheet_Truck_15
+  - first:
+      213: -8160337511215558220
+    second: Spritesheet_Truck_16
+  - first:
+      213: -6640351007637371691
+    second: Spritesheet_Truck_17
+  - first:
+      213: 1240366665109025448
+    second: Spritesheet_Truck_18
+  - first:
+      213: -4126063753817268978
+    second: Spritesheet_Truck_19
+  - first:
+      213: 3693103278362365395
+    second: Spritesheet_Truck_20
+  - first:
+      213: 1106061078631997727
+    second: Spritesheet_Truck_21
+  - first:
+      213: 7487433302412264403
+    second: Spritesheet_Truck_22
+  - first:
+      213: -6555025208528600470
+    second: Spritesheet_Truck_23
+  - first:
+      213: 6632284795236081905
+    second: Spritesheet_Truck_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Truck_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 655
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86ad21a7467c3b70800000000000000
+      internalID: 8880102615286654603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 773
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ce4b40e0b89d010800000000000000
+      internalID: 1214154466877828169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 790
+        width: 62
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14434e3a3da59a5e0800000000000000
+      internalID: -1897885902925712319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 591
+        width: 278
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1be910796680100800000000000000
+      internalID: 74422192604885446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 609
+        width: 304
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e2d65a52f279d0800000000000000
+      internalID: -2777891550316534160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_5
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 610
+        width: 87
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4060242918ce00800000000000000
+      internalID: 1065128954825821913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 661
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a112339a14d023f90800000000000000
+      internalID: -6975498297180741350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_7
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 649
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90be19104833ead0800000000000000
+      internalID: -2674231905777438566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_8
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 586
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40a0deebbf6bcf90800000000000000
+      internalID: -6932324348450529205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 744
+        width: 114
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a6d5087be7662e0800000000000000
+      internalID: -2132878046915630445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_10
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 745
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb923664119838b0800000000000000
+      internalID: -5172224655235048503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 338
+        width: 554
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac09d020908a480800000000000000
+      internalID: -8887843960193496425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_12
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 358
+        width: 63
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef33aee820490600800000000000000
+      internalID: 434949383564509166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 522
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d4f8675318359a0800000000000000
+      internalID: -6245506191610393339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_14
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 501
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841e4c2a98f98f320800000000000000
+      internalID: 2591996999041868104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 481
+        width: 74
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa73fa49a1d7ea030800000000000000
+      internalID: 3507878712885327791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_16
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 460
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b193b4d448a0ce80800000000000000
+      internalID: -8160337511215558220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_17
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 442
+        width: 73
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d40eddc0fbb8d3a0800000000000000
+      internalID: -6640351007637371691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_18
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 424
+        width: 71
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a23f0109eaa63110800000000000000
+      internalID: 1240366665109025448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 403
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d5b1170e64db6c0800000000000000
+      internalID: -4126063753817268978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_20
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 382
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd8e916dd9804330800000000000000
+      internalID: 3693103278362365395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_21
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 362
+        width: 74
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11eebbd0b4895f00800000000000000
+      internalID: 1106061078631997727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_22
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 361
+        width: 77
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d386bd1be4b8e760800000000000000
+      internalID: 7487433302412264403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 14
+        width: 277
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a620ce78d4fd705a0800000000000000
+      internalID: -6555025208528600470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_24
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 81
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06545c1eb9a0c50800000000000000
+      internalID: 6632284795236081905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a590732cb2d0b54a982df23d6acb092
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
