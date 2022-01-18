@@ -17,6 +17,9 @@ public class TruckController : MonoBehaviour
     [SerializeField] ParticleSystem exhaust;
     const float exhaustIdle = 0.15f;
 
+    [Header("Parts(Color)")]
+    [SerializeField] SpriteRenderer[] parts;
+
     [Header("Motor Values")]
     [SerializeField] float speed;
     [SerializeField] float boostSpeed;
@@ -26,11 +29,12 @@ public class TruckController : MonoBehaviour
 
     [SerializeField] GameObject lights;
     [SerializeField] MotorSound motorSound;
-
     [SerializeField] AnalogDisplay rpm;
     [SerializeField] AnalogDisplay boost;
+
     TruckInput truckInput;
     JointMotor2D motor;
+    SaveManager saveManager;
 
     float movement;
     bool truckIsDriving;
@@ -43,6 +47,8 @@ public class TruckController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        saveManager = FindObjectOfType<SaveManager>();
+        SetSavedColors();
         motor = new JointMotor2D();
         motor.maxMotorTorque = maxMotorForce;
         SetAllWheelDrive(allWheelDrive);
@@ -125,6 +131,16 @@ public class TruckController : MonoBehaviour
     public void SwitchLights(bool on)
     {
         lights.SetActive(on);
+    }
+
+    void SetSavedColors()
+    {
+        var colors = saveManager.GetTruckColors();
+
+        for (int i = 0; i < colors.Length; i++)
+        {
+            parts[i].color = colors[i];
+        }
     }
 
 }

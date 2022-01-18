@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -222,6 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1528065470}
+  - component: {fileID: 1528065471}
   m_Layer: 0
   m_Name: SaveManager
   m_TagString: Untagged
@@ -243,6 +244,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528065471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528065469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb1247802bf2ac4baaa8d7d6599ba8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    truckColors:
+    - {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 1}
+    - {r: 0.37647063, g: 0.37647063, b: 0.37647063, a: 1}
+    - {r: 0.9019608, g: 0, b: 0.49411765, a: 1}
+    - {r: 0.37647063, g: 0.37647063, b: 0.37647063, a: 1}
+    - {r: 0.9019608, g: 0, b: 0.49411765, a: 1}
+    - {r: 0, g: 0.050980397, b: 0.90196085, a: 1}
+    - {r: 0.9019608, g: 0, b: 0.49411765, a: 1}
+    - {r: 0, g: 0.050980397, b: 0.90196085, a: 1}
+    - {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+    - {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1617480285
 GameObject:
   m_ObjectHideFlags: 0

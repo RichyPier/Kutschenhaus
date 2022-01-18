@@ -47,6 +47,14 @@ public class AnalogDisplay : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, animationSpeed * Time.deltaTime);
     }
 
+    public void SetValue(float val)
+    {
+        if (val >= 0 && val <= maxValue)
+        {
+            displayValue = val;
+        }
+    }
+
     float GetRotation()
     {
         float totalAngle = maxAngle - zeroAngle;

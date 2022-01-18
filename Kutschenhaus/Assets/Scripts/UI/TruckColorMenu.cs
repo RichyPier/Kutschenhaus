@@ -11,12 +11,13 @@ public class TruckColorMenu : MonoBehaviour
     [SerializeField] List<Image> truckParts;
     [SerializeField] Slider colorSlider;
     [SerializeField] GameObject truckPartButtons;
-
     int currentPartNumber;
+    SaveManager saveManager;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         CreateGradientImage();
         for (int i = 0; i < truckPartButtons.transform.childCount; i++)
         {
@@ -25,11 +26,19 @@ public class TruckColorMenu : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        saveManager = FindObjectOfType<SaveManager>();
+        SetSavedColors();
+    }
+
     // Update is called once per frame
     void Update()
     {
         
     }
+
+
 
     void CreateGradientImage()
     {
@@ -52,5 +61,31 @@ public class TruckColorMenu : MonoBehaviour
     {
         truckParts[currentPartNumber].color = colors.Evaluate(colorSlider.value);
 
+    }
+
+    void SetSavedColors()
+    {
+        var colors = saveManager.GetTruckColors();
+
+        for (int i = 0; i < colors.Length; i++)
+        {
+            truckParts[i].color = colors[i];
+        }
+    }
+
+    void SaveColors()
+    {
+        var colors = new Color[13];
+        for (int i = 0; i < colors.Length; i ++)
+        {
+            colors[i] = truckParts[i].color;
+        }
+
+        saveManager.SetTruckColors(colors);
+    }
+
+    private void OnDisable()
+    {
+        SaveColors();
     }
 }
