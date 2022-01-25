@@ -11,6 +11,7 @@ using TMPro;
 public class SaveData
 {
     public Color[] truckColors;
+    public int coins;
 
     // ToDo: other saved data
 }
@@ -36,6 +37,15 @@ public class SaveManager : MonoBehaviour
     {
         saveData.truckColors = colors;
     }
+    public void SetCoins(int coins)
+    {
+        saveData.coins = coins;
+    }
+
+    public int GetCoins()
+    {
+        return saveData.coins;
+    }
 
     void Load()
     {
@@ -47,13 +57,15 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+
+
     void Save()
     {
         string jsonString = JsonUtility.ToJson(saveData);
         File.WriteAllText(path, jsonString);
     }
 
-    private void OnDestroy()
+    private void OnApplicationQuit()
     {
         Save();
     }

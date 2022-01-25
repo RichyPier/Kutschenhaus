@@ -271,6 +271,7 @@ MonoBehaviour:
     - {r: 1, g: 1, b: 1, a: 1}
     - {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
     - {r: 1, g: 1, b: 1, a: 1}
+    coins: 0
 --- !u!1 &1617480285
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +287,7 @@ GameObject:
   - component: {fileID: 1617480289}
   - component: {fileID: 1617480288}
   - component: {fileID: 1617480287}
+  - component: {fileID: 1617480293}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -473,3 +475,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   truckPrefab: {fileID: 3104427081168939818, guid: 89df19d849c6bb94da96654ada787ccf, type: 3}
   truckStartPosition: {x: 1, y: 10, z: 0}
+  saveManager: {fileID: 1528065471}
+--- !u!114 &1617480293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617480285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79bbfe8e1e740844caa6786cbc2097e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: a9d0ebfa5b322f647bed0ac7ab35a858, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1617480292}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: AddCoin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

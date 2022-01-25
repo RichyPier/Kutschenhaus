@@ -7,8 +7,16 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject truckPrefab;
     [SerializeField] Vector3 truckStartPosition;
+    [SerializeField] SaveManager saveManager;
     GameObject truck;
     Vector3 lastCheckpointPosition;
+
+    int coins;
+
+    private void Start()
+    {
+        coins = saveManager.GetCoins();
+    }
 
     void SpawnTruck(Vector3 spawnPosition)
     {
@@ -34,7 +42,7 @@ public class GameManager : MonoBehaviour
         LoadScenesAdditive(UnloadAllExcept("ManagementScene"));
     }
 
-    List<string> UnloadAllExcept(string stillExistingScene)
+    List<string> UnloadAllExcept( string stillExistingScene)
     {
         int sceneCount = SceneManager.sceneCount;
         List<string> unloadedScenes = new List<string>();
@@ -46,7 +54,7 @@ public class GameManager : MonoBehaviour
             if(!scenename.Equals(stillExistingScene))
             {
                 SceneManager.UnloadSceneAsync(scenename);
-                unloadedScenes.Add(scenename);
+                unloadedScenes.Add( scenename);
             }
         }
         return unloadedScenes;
@@ -72,9 +80,15 @@ public class GameManager : MonoBehaviour
         Debug.Log("SetCheckpoint");
         lastCheckpointPosition = truck.transform.GetChild(0).transform.position;
     }
-    // Update is called once per frame
-    void Update()
+
+    public int GetCoins()
     {
-        
+        return coins;
+    }
+
+    public void AddCoin()
+    {
+        coins++;
+        saveManager.SetCoins(coins);
     }
 }
