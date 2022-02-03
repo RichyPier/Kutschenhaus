@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zeroAngle: 0
   maxAngle: 160
-  maxValue: 350
+  maxValue: 300
   animationSpeed: 10
   test: 0
 --- !u!1 &3104427081168939818
@@ -2675,7 +2675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ba727c5c9adc8428a8dc68e74f18f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputType: 0
+  inputType: 1
   brakeButton: {fileID: 8556651355120697399}
   gasButton: {fileID: 390703869767806157}
   gasPedalDelay: 1

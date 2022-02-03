@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using System;
 
 public enum TransitionType { Scale, Position, Rotation, ImageColor, SpriteColor, MeshRendererColor }
 
@@ -74,6 +75,11 @@ public class EasyTransition : MonoBehaviour
         this.targetColor = targetColor;
         this.duration = duration;
         this.onEndAction = onEndAction;
+    }
+
+    public void SetTargetTransformation(Vector3 targetTransformation)
+    {
+        this.targetTransformation = targetTransformation;
     }
 
     public void RestartBackwards()
