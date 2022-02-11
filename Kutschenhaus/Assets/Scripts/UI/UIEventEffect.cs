@@ -17,7 +17,7 @@ public class TransitionSize
 [System.Serializable]
 public class TransitionPosition
 {
-    [HideIfFalse("use")] public bool use;
+    public bool use;
     [HideIfFalse("use")] public AnimationCurve animCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     [HideIfFalse("use")] public Vector3 positionOffset = new Vector3(0 - 3, -3);
     [HideIfFalse("use")] public float duration = 0.3f;
@@ -98,7 +98,7 @@ public class UIEventEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
             if ((onEnableEffect.canvasFadeTransition.use || onHoverEffect.canvasFadeTransition.use || onClickEffect.canvasFadeTransition.use) && canvasGroup == null)
                 canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
-        if (onEnableEffect.rotationTransition.use )
+        if (onEnableEffect.rotationTransition.use)
         {
             var tran = onEnableEffect.rotationTransition;
             StartCoroutine(RunRotationTransition(tran.duration, tran.animCurve, tran.rotation));
@@ -151,6 +151,12 @@ public class UIEventEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         }
 
         if (onClickEffect.sizeTransition.use)
+        {
+            var tran = onClickEffect.sizeTransition;
+            StartCoroutine(RunScaleTransition(tran.duration, tran.animCurve, tran.size));
+        }
+
+        if (onClickEffect.canvasFadeTransition.use)
         {
             var tran = onClickEffect.canvasFadeTransition;
             StartCoroutine(RunCanvasFadeTransition(tran.duration, tran.animCurve, tran.targetAlpha, tran.startAlpha));

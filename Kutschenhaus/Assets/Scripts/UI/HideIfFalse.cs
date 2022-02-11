@@ -1,4 +1,4 @@
-// #if Unity_Editor
+#if UNITY_EDITOR
 
 using System.Collections;
 using System.Collections.Generic;
@@ -24,8 +24,8 @@ public class HidePropertyDrawer : PropertyDrawer
 {
     public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
     {
-        HideIfFalse hideIfAtribute = (HideIfFalse)attribute;
-        if (GetConditionalAttributeResult(hideIfAtribute, property))
+        HideIfFalse hideIfAttribute = (HideIfFalse)attribute;
+        if (GetConditionalAttributeResult(hideIfAttribute, property))
         {
             return EditorGUI.GetPropertyHeight(property, label);
         }
@@ -37,7 +37,7 @@ public class HidePropertyDrawer : PropertyDrawer
 
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-        HideIfFalse hideIfAttribute = (HideIfFalse)attribute;
+        HideIfFalse hideIfAttribute = (HideIfFalse) attribute;
 
         if (GetConditionalAttributeResult(hideIfAttribute, property))
         {
@@ -68,4 +68,4 @@ public class HidePropertyDrawer : PropertyDrawer
         return enabled;
     }
 }
-// #endif
+#endif

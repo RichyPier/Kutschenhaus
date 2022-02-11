@@ -2315,7 +2315,7 @@ MonoBehaviour:
       rotation: {x: 0, y: 0, z: 3}
       duration: 0.3
     canvasFadeTransition:
-      use: 0
+      use: 1
       animCurve:
         serializedVersion: 2
         m_Curve:
@@ -2340,9 +2340,9 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      duration: 0
+      duration: 0.4
       startAlpha: 0
-      targetAlpha: 0
+      targetAlpha: 1
     sound:
       use: 0
       startClip: {fileID: 0}
@@ -19386,7 +19386,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      duration: 0.4
+      duration: 1
       startAlpha: 0
       targetAlpha: 1
     sound:
@@ -28497,7 +28497,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      duration: 0.4
+      duration: 1
       startAlpha: 0
       targetAlpha: 1
     sound:
@@ -28994,7 +28994,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      duration: 0.4
+      duration: 1
       startAlpha: 0
       targetAlpha: 1
     sound:
