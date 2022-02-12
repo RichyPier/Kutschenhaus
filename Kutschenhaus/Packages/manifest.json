@@ -43,5 +43,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Unitypackage-custom-hierarchy",
+      "url": "https://github.com/febucci/unitypackage-custom-hierarchy.git",
+      "scopes": [
+        "Custom Hierarchy"
+      ]
+    }
+  ]
 }

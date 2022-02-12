@@ -150,11 +150,11 @@ public class UIEventEffect : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
             StartCoroutine(RunScaleTransition(tran.duration, tran.animCurve, tran.size));
         }
 
-        if (onClickEffect.sizeTransition.use)
-        {
-            var tran = onClickEffect.sizeTransition;
-            StartCoroutine(RunScaleTransition(tran.duration, tran.animCurve, tran.size));
-        }
+    //   if (onClickEffect.sizeTransition.use)
+    //   {
+    //       var tran = onClickEffect.sizeTransition;
+    //       StartCoroutine(RunScaleTransition(tran.duration, tran.animCurve, tran.size));
+    //   }
 
         if (onClickEffect.canvasFadeTransition.use)
         {
