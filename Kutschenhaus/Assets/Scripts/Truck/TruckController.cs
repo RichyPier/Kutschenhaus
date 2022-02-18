@@ -2,6 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class WheelsUpgrades
+{
+    public PhysicsMaterial2D physicsMaterial;
+    public float size;
+    public float stability;
+}
+
+[System.Serializable]
+public class MotorUpgrades
+{
+    public float speed;
+    public float boostSpeed;
+    public float maxMotorForce;
+}
+
+[System.Serializable]
+public class ChassisUpgrades
+{
+    public float dampintRatio;
+    public float frequency;
+    public float wheelMassFront;
+    public float wheelMassRear;
+}
+
+[System.Serializable]
+public class SpecialsUpgrades
+{
+    public bool allWheelDrive;
+    public bool winch;
+    public bool snowChains;
+    public bool amphibious;
+}
+
+
 public class TruckController : MonoBehaviour
 {
     [Header("Wheels")]
@@ -20,13 +55,13 @@ public class TruckController : MonoBehaviour
     [Header("Parts(Color)")]
     [SerializeField] SpriteRenderer[] parts;
 
-    [Header("Motor Values")]
-    [SerializeField] float speed;
-    [SerializeField] float boostSpeed;
-    [SerializeField] bool allWheelDrive;
-    [SerializeField] float maxMotorForce;
+    [Header("Upgrade Level - 1 Wheels, 2 Chassis, 3 Motor, 4 Specials")]
+    [SerializeField] WheelsUpgrades[] wheelsUpgrade;
+    [SerializeField] ChassisUpgrades[] chassisUpgrade;
+    [SerializeField] MotorUpgrades[] motorUpgrade;
+    [SerializeField] SpecialsUpgrades[] specialsUpgrade;
     
-
+[Header("Lights & Sound & Display")]
     [SerializeField] GameObject lights;
     [SerializeField] MotorSound motorSound;
     [SerializeField] AnalogDisplay rpm;
@@ -35,6 +70,12 @@ public class TruckController : MonoBehaviour
     TruckInput truckInput;
     JointMotor2D motor;
     SaveManager saveManager;
+    
+    float speed;
+    float boostSpeed;
+    bool allWheelDrive;
+    float maxMotorForce;
+    float wheelStability;
 
     float movement;
     bool truckIsDriving;
@@ -48,6 +89,7 @@ public class TruckController : MonoBehaviour
     void Start()
     {
         saveManager = FindObjectOfType<SaveManager>();
+        SetUpgrades();
         SetSavedColors();
         motor = new JointMotor2D();
         motor.maxMotorTorque = maxMotorForce;
@@ -86,10 +128,9 @@ public class TruckController : MonoBehaviour
     private void FixedUpdate()
     {
         var main = exhaust.main;
-        main.startLifetime = ( Mathf.Abs(movement) / 200) + exhaustIdle;
+        main.startLifetime = (Mathf.Abs(movement) / 200) + exhaustIdle;
 
         var motorSpeed = movement;
-
         if (movement >= speed)
         { 
             motorSpeed = movement + boostSpeed;
@@ -141,6 +182,41 @@ public class TruckController : MonoBehaviour
         {
             parts[i].color = colors[i];
         }
+    }
+
+    void SetUpgrades()
+    {
+        var upgrades = saveManager.GetUpgradeLevel();
+
+        // 1=Wheel Upgrades
+        rearWheel.gameObject.GetComponent<CircleCollider2D>().sharedMaterial = wheelsUpgrade[upgrades[1]].physicsMaterial;
+        frontWheel.gameObject.GetComponent<CircleCollider2D>().sharedMaterial = wheelsUpgrade[upgrades[1]].physicsMaterial;
+        wheelStability = wheelsUpgrade[upgrades[1]].stability;
+
+        float size = wheelsUpgrade[upgrades[1]].size;
+        rearWheel.transform.localScale = new Vector2(size, size);
+        frontWheel.transform.localScale = new Vector2(size, size);
+
+
+        // 2=Chassis Upgrades
+        var suspension = new JointSuspension2D();
+        suspension.dampingRatio = chassisUpgrade[upgrades[2]].dampintRatio;
+        suspension.frequency = chassisUpgrade[upgrades[2]].frequency;
+        rearWheel.suspension = suspension;
+        frontWheel.suspension = suspension;
+
+        rearWheel.connectedBody.mass = chassisUpgrade[upgrades[2]].wheelMassRear;
+        frontWheel.connectedBody.mass = chassisUpgrade[upgrades[2]].wheelMassFront;
+
+        // 3=Motor Upgrades
+        speed = motorUpgrade[upgrades[3]].speed;
+        boostSpeed = motorUpgrade[upgrades[3]].boostSpeed;
+        maxMotorForce = motorUpgrade[upgrades[3]].maxMotorForce;
+
+        // 4=Specials Upgrades
+        allWheelDrive = specialsUpgrade[upgrades[4]].allWheelDrive;
+
+        // ToDo: snow chains and winch and amphibious
     }
 
 }

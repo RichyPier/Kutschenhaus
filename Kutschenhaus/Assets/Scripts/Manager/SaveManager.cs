@@ -11,6 +11,12 @@ using TMPro;
 public class SaveData
 {
     public Color[] truckColors;
+
+    [Space(10)]
+    [Header("0=Color, 1=Wheels, 2=Chassis, 3=Motor, 4=Special")]
+    public int[] upgradeLevel;
+    
+    [Space(10)]
     public int coins;
 
     // ToDo: other saved data
@@ -45,6 +51,16 @@ public class SaveManager : MonoBehaviour
     public int GetCoins()
     {
         return saveData.coins;
+    }
+
+    public void SetUpgradeLevel(int partNumber, int level)
+    {
+        saveData.upgradeLevel[partNumber] = level;
+    }
+
+    public int[] GetUpgradeLevel()
+    {
+        return saveData.upgradeLevel;
     }
 
     void Load()

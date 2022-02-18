@@ -271,7 +271,8 @@ MonoBehaviour:
     - {r: 1, g: 1, b: 1, a: 1}
     - {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
     - {r: 1, g: 1, b: 1, a: 1}
-    coins: 0
+    upgradeLevel: 0000000000000000000000000000000000000000
+    coins: 2000
 --- !u!1 &1617480285
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +477,6 @@ MonoBehaviour:
   truckPrefab: {fileID: 3104427081168939818, guid: 89df19d849c6bb94da96654ada787ccf, type: 3}
   truckStartPosition: {x: 1.8, y: 2.5, z: 0}
   saveManager: {fileID: 1528065471}
-  capsSound: {fileID: 1839525845}
 --- !u!114 &1617480293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c457f039bcfd9f348921ed7d75a3a6d3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

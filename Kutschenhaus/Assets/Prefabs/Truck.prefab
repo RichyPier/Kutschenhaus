@@ -2655,10 +2655,80 @@ MonoBehaviour:
   - {fileID: 2556595428748189345}
   - {fileID: 2351716563351912003}
   - {fileID: 368990885941304858}
-  speed: 300
-  boostSpeed: 100
-  allWheelDrive: 1
-  maxMotorForce: 100
+  wheelsUpgrade:
+  - physicsMaterial: {fileID: 6200000, guid: a26feff668296d048bdb5376a0e4c816, type: 2}
+    size: 0.8
+    stability: 0.25
+  - physicsMaterial: {fileID: 6200000, guid: b27e8dd831636204285062cede496e95, type: 2}
+    size: 0.85
+    stability: 0.4
+  - physicsMaterial: {fileID: 6200000, guid: a2251e06ce6e3ad428615bf545ab7ca2, type: 2}
+    size: 0.9
+    stability: 0.6
+  - physicsMaterial: {fileID: 6200000, guid: 9af0691b14de41640b0d9f441c427363, type: 2}
+    size: 1
+    stability: 0.8
+  - physicsMaterial: {fileID: 6200000, guid: 647efeea6e1d3834f96cd105345959e7, type: 2}
+    size: 1.05
+    stability: 1
+  chassisUpgrade:
+  - dampintRatio: 0.4
+    frequency: 6
+    wheelMassFront: 2
+    wheelMassRear: 1.5
+  - dampintRatio: 0.45
+    frequency: 7
+    wheelMassFront: 3
+    wheelMassRear: 2.5
+  - dampintRatio: 0.5
+    frequency: 8
+    wheelMassFront: 3
+    wheelMassRear: 2.5
+  - dampintRatio: 0.6
+    frequency: 9
+    wheelMassFront: 3
+    wheelMassRear: 2.5
+  - dampintRatio: 0.8
+    frequency: 11
+    wheelMassFront: 4
+    wheelMassRear: 3
+  motorUpgrade:
+  - speed: 150
+    boostSpeed: 50
+    maxMotorForce: 800
+  - speed: 175
+    boostSpeed: 70
+    maxMotorForce: 900
+  - speed: 200
+    boostSpeed: 100
+    maxMotorForce: 1100
+  - speed: 250
+    boostSpeed: 100
+    maxMotorForce: 1500
+  - speed: 300
+    boostSpeed: 200
+    maxMotorForce: 2000
+  specialsUpgrade:
+  - allWheelDrive: 0
+    winch: 0
+    snowChains: 0
+    amphibious: 0
+  - allWheelDrive: 1
+    winch: 0
+    snowChains: 0
+    amphibious: 0
+  - allWheelDrive: 1
+    winch: 1
+    snowChains: 0
+    amphibious: 0
+  - allWheelDrive: 1
+    winch: 1
+    snowChains: 1
+    amphibious: 0
+  - allWheelDrive: 1
+    winch: 1
+    snowChains: 1
+    amphibious: 1
   lights: {fileID: 2619443962402777014}
   motorSound: {fileID: 8898418320609084940}
   rpm: {fileID: 5450712423602673046}
@@ -2679,6 +2749,7 @@ MonoBehaviour:
   brakeButton: {fileID: 8556651355120697399}
   gasButton: {fileID: 390703869767806157}
   gasPedalDelay: 1
+  brakePedalDelay: 3
 --- !u!82 &8936704344413612216
 AudioSource:
   m_ObjectHideFlags: 0

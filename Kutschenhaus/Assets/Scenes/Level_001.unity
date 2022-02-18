@@ -180,11 +180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09ae9be60ce5f8846b0798619098cf83, type: 3}
---- !u!82 &69940849 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 5109878929735866109, guid: 09ae9be60ce5f8846b0798619098cf83, type: 3}
-  m_PrefabInstance: {fileID: 69940848}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &138457137
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,7 +721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinOutput: {fileID: 693886523}
-  audioSource: {fileID: 69940849}
 --- !u!114 &472940165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,9 +1457,9 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1532,7 +1526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 2, z: -10}
+  m_LocalPosition: {x: 10.68, y: 2.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

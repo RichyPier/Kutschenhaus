@@ -12,9 +12,11 @@ public class TruckInput : MonoBehaviour
     [SerializeField] GameObject brakeButton;
     [SerializeField] GameObject gasButton;
     [SerializeField] float gasPedalDelay;
+ //   [SerializeField] float brakePedalDelay;
 
     float movementInput;
     bool gas;
+//    bool brake;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,10 @@ public class TruckInput : MonoBehaviour
         {
             if (movementInput < 1f) movementInput += gasPedalDelay * Time.deltaTime;
         }
+//       if (brake)
+//       {
+//           if (movementInput < 1f) movementInput -= brakePedalDelay * Time.deltaTime;
+//       }
     }
 
     public float GetMovementInput()
@@ -45,9 +51,24 @@ public class TruckInput : MonoBehaviour
 
     public void Brake(bool pressed)
     {
-        if (pressed) movementInput = -1f;
-        else movementInput = 0f;
-    }
+       if (pressed)
+       {
+           movementInput = -1f;
+       }
+       else
+       {
+           movementInput = 0f;
+       }
+//         if (pressed)
+//       {
+//           brake = true;
+//       }
+//         else
+//       {
+//           movementInput = -1f;
+//           brake = false;
+//       }
+   }
 
     public void Gas(bool pressed)
     {
