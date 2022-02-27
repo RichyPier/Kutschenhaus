@@ -60,8 +60,11 @@ public class TruckController : MonoBehaviour
     [SerializeField] ChassisUpgrades[] chassisUpgrade;
     [SerializeField] MotorUpgrades[] motorUpgrade;
     [SerializeField] SpecialsUpgrades[] specialsUpgrade;
-    
-[Header("Lights & Sound & Display")]
+
+    [Header("Specials")]
+    [SerializeField] GameObject[] winchParts;
+
+    [Header("Lights & Sound & Display")]
     [SerializeField] GameObject lights;
     [SerializeField] MotorSound motorSound;
     [SerializeField] AnalogDisplay rpm;
@@ -188,7 +191,7 @@ public class TruckController : MonoBehaviour
     {
         var upgrades = saveManager.GetUpgradeLevel();
 
-        // 1=Wheel Upgrades
+        // 1 = Wheel Upgrades
         rearWheel.gameObject.GetComponent<CircleCollider2D>().sharedMaterial = wheelsUpgrade[upgrades[1]].physicsMaterial;
         frontWheel.gameObject.GetComponent<CircleCollider2D>().sharedMaterial = wheelsUpgrade[upgrades[1]].physicsMaterial;
         wheelStability = wheelsUpgrade[upgrades[1]].stability;
@@ -198,7 +201,7 @@ public class TruckController : MonoBehaviour
         frontWheel.transform.localScale = new Vector2(size, size);
 
 
-        // 2=Chassis Upgrades
+        // 2 = Chassis Upgrades
         var suspension = new JointSuspension2D();
         suspension.dampingRatio = chassisUpgrade[upgrades[2]].dampintRatio;
         suspension.frequency = chassisUpgrade[upgrades[2]].frequency;
@@ -208,13 +211,18 @@ public class TruckController : MonoBehaviour
         rearWheel.connectedBody.mass = chassisUpgrade[upgrades[2]].wheelMassRear;
         frontWheel.connectedBody.mass = chassisUpgrade[upgrades[2]].wheelMassFront;
 
-        // 3=Motor Upgrades
+        // 3 = Motor Upgrades
         speed = motorUpgrade[upgrades[3]].speed;
         boostSpeed = motorUpgrade[upgrades[3]].boostSpeed;
         maxMotorForce = motorUpgrade[upgrades[3]].maxMotorForce;
 
-        // 4=Specials Upgrades
+        // 4 = Specials Upgrades
         allWheelDrive = specialsUpgrade[upgrades[4]].allWheelDrive;
+
+        foreach (var part in winchParts)
+        {
+            part.SetActive(specialsUpgrade[upgrades[4]].winch);
+        }
 
         // ToDo: snow chains and winch and amphibious
     }

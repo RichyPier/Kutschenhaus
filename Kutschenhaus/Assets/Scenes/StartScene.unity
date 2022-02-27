@@ -2382,10 +2382,11 @@ MonoBehaviour:
   rearLightOn: {r: 1, g: 0, b: 0, a: 1}
   exhaust: {fileID: 3896355757661898519}
   parts: []
-  speed: 300
-  boostSpeed: 100
-  allWheelDrive: 1
-  maxMotorForce: 100
+  wheelsUpgrade: []
+  chassisUpgrade: []
+  motorUpgrade: []
+  specialsUpgrade: []
+  winchParts: []
   lights: {fileID: 2619443962064754586}
   motorSound: {fileID: 8898418322062571040}
   rpm: {fileID: 0}
@@ -8189,6 +8190,22 @@ Transform:
   m_Father: {fileID: 2771174009747191470}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6626547204702636273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9062504945690927364}
+  m_Layer: 0
+  m_Name: Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &6642893191144255487
 GameObject:
   m_ObjectHideFlags: 0
@@ -8814,3 +8831,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &9062504945690927364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626547204702636273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

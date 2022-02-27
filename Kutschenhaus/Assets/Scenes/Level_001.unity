@@ -2717,7 +2717,7 @@ GameObject:
   - component: {fileID: 1393155887}
   m_Layer: 0
   m_Name: ForegroundCollider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5616,7 @@ MonoBehaviour:
   globalLight: {fileID: 815469642}
   lightValueByNight: 0.15
   lightValueByDay: 1.25
-  dayDuration: 20
+  dayDuration: 120
   nightDuration: 15
   sunsetDuration: 0.1
   sunriseDuration: 0.1
