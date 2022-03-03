@@ -63,6 +63,7 @@ public class TruckController : MonoBehaviour
 
     [Header("Specials")]
     [SerializeField] GameObject[] winchParts;
+    [SerializeField] GameObject propeller;
 
     [Header("Lights & Sound & Display")]
     [SerializeField] GameObject lights;
@@ -87,6 +88,8 @@ public class TruckController : MonoBehaviour
     Vector2 respawnPosition;
 
     bool controllerConnected;
+
+    public bool IsSwimming { get; set; }
 
     // Start is called before the first frame update
     void Start()
@@ -133,7 +136,11 @@ public class TruckController : MonoBehaviour
         var main = exhaust.main;
         main.startLifetime = (Mathf.Abs(movement) / 200) + exhaustIdle;
 
+        if (IsSwimming)
+            movement = 0;
+
         var motorSpeed = movement;
+
         if (movement >= speed)
         { 
             motorSpeed = movement + boostSpeed;
@@ -144,7 +151,8 @@ public class TruckController : MonoBehaviour
             boost.DisplayValue = 0f;
         }
 
-        motor.motorSpeed = motorSpeed;
+            motor.motorSpeed = motorSpeed;
+
         float inputMotorSound = Mathf.InverseLerp(0, speed, motorSpeed);
         motorSound.UpdateMotorSound(inputMotorSound);
         rpm.DisplayValue = movement;
@@ -218,6 +226,14 @@ public class TruckController : MonoBehaviour
 
         // 4 = Specials Upgrades
         allWheelDrive = specialsUpgrade[upgrades[4]].allWheelDrive;
+        propeller.SetActive(specialsUpgrade[upgrades[4]].amphibious);
+
+        var water = FindObjectsOfType<BuoyancyEffector2D>();
+
+        foreach (var effector in water)
+        {
+            effector.enabled = specialsUpgrade[upgrades[4]].amphibious;
+        }
 
         foreach (var part in winchParts)
         {

@@ -7,6 +7,7 @@ TagManager:
   - Truck
   - UICoin
   - Ground
+  - WaterBuoyancy
   layers:
   - Default
   - TransparentFX
@@ -55,4 +56,10 @@ TagManager:
     locked: 0
   - name: TruckLayer
     uniqueID: 17327601
+    locked: 0
+  - name: JeepLayer
+    uniqueID: 547111969
+    locked: 0
+  - name: Water
+    uniqueID: 1690492013
     locked: 0

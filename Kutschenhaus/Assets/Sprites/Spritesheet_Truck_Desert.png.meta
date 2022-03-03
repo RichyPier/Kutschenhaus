@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 0f5349eaa9c2ba147a4c4648dc1fe274
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1289845788519477802
+    second: Spritesheet_Truck_Desert_0
+  - first:
+      213: 654184727960936125
+    second: Spritesheet_Truck_Desert_1
+  - first:
+      213: 8200278474777315066
+    second: Spritesheet_Truck_Desert_2
+  - first:
+      213: 6924970133648462160
+    second: Spritesheet_Truck_Desert_3
+  - first:
+      213: -6247477917365881165
+    second: Spritesheet_Truck_Desert_4
+  - first:
+      213: 5829806309999724446
+    second: Spritesheet_Truck_Desert_5
+  - first:
+      213: 9135317577517922968
+    second: Spritesheet_Truck_Desert_6
+  - first:
+      213: -1856984547677372359
+    second: Spritesheet_Truck_Desert_7
+  - first:
+      213: -5377703832422118229
+    second: Spritesheet_Truck_Desert_8
+  - first:
+      213: 4283706970741284915
+    second: Spritesheet_Truck_Desert_9
+  - first:
+      213: 8247486909422593694
+    second: Spritesheet_Truck_Desert_10
+  - first:
+      213: -5442100082352053640
+    second: Spritesheet_Truck_Desert_11
+  - first:
+      213: 2948677859736277588
+    second: Spritesheet_Truck_Desert_12
+  - first:
+      213: 7732931335697741624
+    second: Spritesheet_Truck_Desert_13
+  - first:
+      213: -6442987183690540208
+    second: Spritesheet_Truck_Desert_14
+  - first:
+      213: -7008428455067016062
+    second: Spritesheet_Truck_Desert_15
+  - first:
+      213: -4501158020282937294
+    second: Spritesheet_Truck_Desert_16
+  - first:
+      213: 295079442368233634
+    second: Spritesheet_Truck_Desert_17
+  - first:
+      213: -5404025777803993659
+    second: Spritesheet_Truck_Desert_18
+  - first:
+      213: 2346197280371434180
+    second: Spritesheet_Truck_Desert_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 740
+        width: 295
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4348d61c891ee0800000000000000
+      internalID: -1289845788519477802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 777
+        width: 29
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbed8974b81241900800000000000000
+      internalID: 654184727960936125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 829
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6426c63dd3dc170800000000000000
+      internalID: 8200278474777315066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 829
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0515e4085af6a1060800000000000000
+      internalID: 6924970133648462160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 744
+        width: 140
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b63f494fef7c49a0800000000000000
+      internalID: -6247477917365881165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_5
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 838
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974dd883f1a7e050800000000000000
+      internalID: 5829806309999724446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 836
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a765e8fea27ce70800000000000000
+      internalID: 9135317577517922968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 710
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300d42846aaa36e0800000000000000
+      internalID: -1856984547677372359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_8
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 752
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac09315bde8e55b0800000000000000
+      internalID: -5377703832422118229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 745
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33026e83bc8c27b30800000000000000
+      internalID: 4283706970741284915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 701
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9661d5a5a5f47270800000000000000
+      internalID: 8247486909422593694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 695
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872284ffec6c974b0800000000000000
+      internalID: -5442100082352053640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 603
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d3a204eecbe820800000000000000
+      internalID: 2948677859736277588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_13
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 605
+        width: 261
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83730c83414e05b60800000000000000
+      internalID: 7732931335697741624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 679
+        width: 106
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1bb7fa49e596a0800000000000000
+      internalID: -6442987183690540208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 516
+        width: 127
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284adfdc37f0dbe90800000000000000
+      internalID: -7008428455067016062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 559
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2309223f0aca881c0800000000000000
+      internalID: -4501158020282937294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 482
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a001ee7035581400800000000000000
+      internalID: 295079442368233634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 334
+        width: 743
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd50f4df2b0105b0800000000000000
+      internalID: -5404025777803993659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Desert_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 207
+        width: 736
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e68deefd5f8020800000000000000
+      internalID: 2346197280371434180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 08ec3240422d50b48ae83908e2125e93
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

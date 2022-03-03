@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 632d517c9095c03469be28b0308c9958
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2618154047463025687
+    second: Spritesheet_Truck_Antarctica_0
+  - first:
+      213: -2480801230072104612
+    second: Spritesheet_Truck_Antarctica_1
+  - first:
+      213: 1124420336374715697
+    second: Spritesheet_Truck_Antarctica_4
+  - first:
+      213: 4501959497413258565
+    second: Spritesheet_Truck_Antarctica_5
+  - first:
+      213: 7300420258271213244
+    second: Spritesheet_Truck_Antarctica_6
+  - first:
+      213: -8340542011109659945
+    second: Spritesheet_Truck_Antarctica_7
+  - first:
+      213: -7279590968581437993
+    second: Spritesheet_Truck_Antarctica_8
+  - first:
+      213: -2115174260597324121
+    second: Spritesheet_Truck_Antarctica_11
+  - first:
+      213: 4939114796067264255
+    second: Spritesheet_Truck_Antarctica_13
+  - first:
+      213: 8022404213349798449
+    second: Spritesheet_Truck_Antarctica_14
+  - first:
+      213: -8908102500391415108
+    second: Spritesheet_Truck_Antarctica_15
+  - first:
+      213: 3208788121921827857
+    second: Spritesheet_Truck_Antarctica_16
+  - first:
+      213: -7331688979422477115
+    second: Spritesheet_Truck_Antarctica_17
+  - first:
+      213: -69699941305124207
+    second: Spritesheet_Truck_Antarctica_18
+  - first:
+      213: -3672458620240594277
+    second: Spritesheet_Truck_Antarctica_19
+  - first:
+      213: 8381194166265075686
+    second: Spritesheet_Truck_Antarctica_20
+  - first:
+      213: -4588025442393420092
+    second: Spritesheet_Truck_Antarctica_21
+  - first:
+      213: 4606878446444428645
+    second: Spritesheet_Truck_Antarctica_22
+  - first:
+      213: 2065184513585182079
+    second: Spritesheet_Truck_Antarctica_23
+  - first:
+      213: 4078232772584133193
+    second: Spritesheet_Truck_Antarctica_24
+  - first:
+      213: 6343325015405310762
+    second: Spritesheet_Truck_Antarctica_25
+  - first:
+      213: 5252369735192255474
+    second: Spritesheet_Truck_Antarctica_26
+  - first:
+      213: -2002048171967067596
+    second: Spritesheet_Truck_Antarctica_27
+  - first:
+      213: -2187474492413786746
+    second: Spritesheet_Truck_Antarctica_28
+  - first:
+      213: -424434386971385345
+    second: Spritesheet_Truck_Antarctica_29
+  - first:
+      213: -6702722618283451000
+    second: Spritesheet_Truck_Antarctica_30
+  - first:
+      213: -2281389582549361442
+    second: Spritesheet_Truck_Antarctica_31
+  - first:
+      213: 816316622264030991
+    second: Spritesheet_Truck_Antarctica_32
+  - first:
+      213: -8848693010951259975
+    second: Spritesheet_Truck_Antarctica_33
+  - first:
+      213: -9048522134001529057
+    second: Spritesheet_Truck_Antarctica_34
+  - first:
+      213: -2478327054871985849
+    second: Spritesheet_Truck_Antarctica_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 979
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e317b1f3c27aabd0800000000000000
+      internalID: -2618154047463025687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 970
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c593333dc6c629dd0800000000000000
+      internalID: -2480801230072104612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 926
+        width: 27
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13517d7a65eba9f00800000000000000
+      internalID: 1124420336374715697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 964
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d638c7f4c2a7e30800000000000000
+      internalID: 4501959497413258565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 917
+        width: 378
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6325dab8d405560800000000000000
+      internalID: 7300420258271213244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_7
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 904
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da26912b31704c80800000000000000
+      internalID: -8340542011109659945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_8
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 968
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5cf8f3592b9fa90800000000000000
+      internalID: -7279590968581437993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 956
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a60c07773465a2e0800000000000000
+      internalID: -2115174260597324121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 821
+        width: 142
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6177c0db24b8440800000000000000
+      internalID: 4939114796067264255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 933
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132df45a02e455f60800000000000000
+      internalID: 8022404213349798449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 934
+        width: 90
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2966919ff006480800000000000000
+      internalID: -8908102500391415108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_16
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 819
+        width: 139
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114b4a6cbc7e78c20800000000000000
+      internalID: 3208788121921827857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 825
+        width: 106
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c480e9d7bb904a90800000000000000
+      internalID: -7331688979422477115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 812
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a74adc540680ff0800000000000000
+      internalID: -69699941305124207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_19
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 603
+        width: 78
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9afc38a75ec80dc0800000000000000
+      internalID: -3672458620240594277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 697
+        width: 255
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75ec150bbff4470800000000000000
+      internalID: 8381194166265075686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_21
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 641
+        width: 131
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce8fa52b2f0450c0800000000000000
+      internalID: -4588025442393420092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_22
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 477
+        width: 97
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d39bbe98beeef30800000000000000
+      internalID: 4606878446444428645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_23
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 437
+        width: 135
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75f1ef8f5209ac10800000000000000
+      internalID: 2065184513585182079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_24
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 431
+        width: 160
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942db39691bc89830800000000000000
+      internalID: 4078232772584133193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 565
+        width: 199
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23351e3e74080850800000000000000
+      internalID: 6343325015405310762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_26
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 563
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb9527227a24e840800000000000000
+      internalID: 5252369735192255474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_27
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 240
+        width: 85
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aceae7bcb4734e0800000000000000
+      internalID: -2002048171967067596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 175
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685c274f98784a1e0800000000000000
+      internalID: -2187474492413786746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_29
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 231
+        width: 533
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff12c1e7c2b1c1af0800000000000000
+      internalID: -424434386971385345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 112
+        width: 88
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d1d3d8a452bf2a0800000000000000
+      internalID: -6702722618283451000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 123
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc5ed11340e650e0800000000000000
+      internalID: -2281389582549361442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_32
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 147
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f075b4694a3245b00800000000000000
+      internalID: 816316622264030991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_33
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 106
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8b4c3c690233580800000000000000
+      internalID: -8848693010951259975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_34
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 50
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f449c6f013d6280800000000000000
+      internalID: -9048522134001529057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_Truck_Antarctica_35
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7418d11aca63b9dd0800000000000000
+      internalID: -2478327054871985849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 508b69369cb83f44ead9b09a7ddd8512
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
