@@ -39,6 +39,8 @@ public class SpecialsUpgrades
 
 public class TruckController : MonoBehaviour
 {
+    [SerializeField] float damageDeduction;
+
     [Header("Wheels")]
     [SerializeField] WheelJoint2D rearWheel;
     [SerializeField] WheelJoint2D frontWheel;
@@ -74,12 +76,15 @@ public class TruckController : MonoBehaviour
     TruckInput truckInput;
     JointMotor2D motor;
     SaveManager saveManager;
-    
+    GameManager gM;
+    LevelUI levelUI;
+
     float speed;
     float boostSpeed;
     bool allWheelDrive;
     float maxMotorForce;
     float wheelStability;
+    float damageState = 1;
 
     float movement;
     bool truckIsDriving;
@@ -95,6 +100,8 @@ public class TruckController : MonoBehaviour
     void Start()
     {
         saveManager = FindObjectOfType<SaveManager>();
+        levelUI = FindObjectOfType<LevelUI>();
+        gM = FindObjectOfType<GameManager>();
         SetUpgrades();
         SetSavedColors();
         motor = new JointMotor2D();
@@ -103,8 +110,8 @@ public class TruckController : MonoBehaviour
         lights.SetActive(false);
 
         truckInput = GetComponent<TruckInput>();
-    //  FindObjectOfType<CameraFollow>().objectToFollow = transform;
-    //  FindObjectOfType<EnvironmentController>().Truck = this;
+        //  FindObjectOfType<CameraFollow>().objectToFollow = transform;
+        //  FindObjectOfType<EnvironmentController>().Truck = this;
     }
 
     // Update is called once per frame
@@ -142,7 +149,7 @@ public class TruckController : MonoBehaviour
         var motorSpeed = movement;
 
         if (movement >= speed)
-        { 
+        {
             motorSpeed = movement + boostSpeed;
             boost.DisplayValue = boostSpeed;
         }
@@ -151,7 +158,7 @@ public class TruckController : MonoBehaviour
             boost.DisplayValue = 0f;
         }
 
-            motor.motorSpeed = motorSpeed;
+        motor.motorSpeed = motorSpeed;
 
         float inputMotorSound = Mathf.InverseLerp(0, speed, motorSpeed);
         motorSound.UpdateMotorSound(inputMotorSound);
@@ -241,6 +248,21 @@ public class TruckController : MonoBehaviour
         }
 
         // ToDo: snow chains and winch and amphibious
+    }
+
+    public void SetDamage()
+    {
+        damageState -= damageDeduction / wheelStability;
+        Debug.Log("Damage: " + damageState);
+        // ToDo: Anzeige Zustand
+
+        levelUI.UpdateDamage(damageState);
+
+        if (damageState <= 0)
+        {
+            gM.GameOver();
+        }
+
     }
 
 }

@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 1289259849843638151}
   - component: {fileID: 1780201723095311387}
   - component: {fileID: 4700979410260111541}
+  - component: {fileID: 3429481187906597230}
   m_Layer: 0
   m_Name: WheelFront
   m_TagString: Untagged
@@ -606,6 +607,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.95
+--- !u!114 &3429481187906597230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033913149498250651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b11709d43179c541bf3dedd62953e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: fc7383aba057db6429000341e7be2342, type: 2}
+  objectTagName: Deadly
 --- !u!1 &1145934024940872699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,6 +3028,7 @@ GameObject:
   - component: {fileID: 8615063522047554073}
   - component: {fileID: 8941551324737613327}
   - component: {fileID: 3923578543978580409}
+  - component: {fileID: 3322410218876900423}
   m_Layer: 0
   m_Name: Chassis
   m_TagString: Truck
@@ -3125,6 +3141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ebfc95b301ba84abb9afca305246c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageDeduction: 0.001
   rearWheel: {fileID: 4211425650282123380}
   frontWheel: {fileID: 1780201723095311387}
   rearLight: {fileID: 1415419778785391535}
@@ -3430,6 +3447,34 @@ AudioReverbFilter:
   m_LFReference: 250
   m_ReflectionsDelay: 0
   m_ReverbPreset: 1
+--- !u!114 &3322410218876900423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689830897793704976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79bbfe8e1e740844caa6786cbc2097e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: fc7383aba057db6429000341e7be2342, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2047638867446524236}
+        m_TargetAssemblyTypeName: TruckController, Assembly-CSharp
+        m_MethodName: SetDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6784132516005393312
 GameObject:
   m_ObjectHideFlags: 0
@@ -8428,6 +8473,7 @@ GameObject:
   - component: {fileID: 6229475162023311579}
   - component: {fileID: 4211425650282123380}
   - component: {fileID: 7349616047488791032}
+  - component: {fileID: 4804986799387075770}
   m_Layer: 0
   m_Name: WheelRear
   m_TagString: Untagged
@@ -8562,6 +8608,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.95
+--- !u!114 &4804986799387075770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339685198890500531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b11709d43179c541bf3dedd62953e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: fc7383aba057db6429000341e7be2342, type: 2}
+  objectTagName: Deadly
 --- !u!1 &7523028372000385073
 GameObject:
   m_ObjectHideFlags: 0

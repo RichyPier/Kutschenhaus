@@ -9,10 +9,10 @@ public class TruckInput : MonoBehaviour
 
     [SerializeField] InputType inputType;
 
-    [SerializeField] GameObject brakeButton;
-    [SerializeField] GameObject gasButton;
+    [SerializeField] public GameObject brakeButton;
+    [SerializeField] public GameObject gasButton;
     [SerializeField] float gasPedalDelay;
- //   [SerializeField] float brakePedalDelay;
+    //   [SerializeField] float brakePedalDelay;
 
     float movementInput;
     bool gas;

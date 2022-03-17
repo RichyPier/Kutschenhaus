@@ -2375,6 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ebfc95b301ba84abb9afca305246c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageDeduction: 0
   rearWheel: {fileID: 4211425649307328600}
   frontWheel: {fileID: 1780201725119173687}
   rearLight: {fileID: 1415419779706438531}
@@ -2387,6 +2388,7 @@ MonoBehaviour:
   motorUpgrade: []
   specialsUpgrade: []
   winchParts: []
+  propeller: {fileID: 0}
   lights: {fileID: 2619443962064754586}
   motorSound: {fileID: 8898418322062571040}
   rpm: {fileID: 0}
@@ -8190,22 +8192,6 @@ Transform:
   m_Father: {fileID: 2771174009747191470}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6626547204702636273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9062504945690927364}
-  m_Layer: 0
-  m_Name: Anchor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &6642893191144255487
 GameObject:
   m_ObjectHideFlags: 0
@@ -8831,17 +8817,3 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9062504945690927364
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6626547204702636273}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

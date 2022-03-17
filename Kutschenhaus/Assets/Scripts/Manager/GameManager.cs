@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject truckPrefab;
     [SerializeField] Vector3 truckStartPosition;
     [SerializeField] SaveManager saveManager;
+    
+    TruckInput truckInput;
+    Winch winch;
+
     GameObject truck;
     Vector3 lastCheckpointPosition;
 
@@ -90,5 +95,15 @@ public class GameManager : MonoBehaviour
     {
         coins++;
         saveManager.SetCoins(coins);
+    }
+
+    public void GameOver()
+    {
+        var resource = Resources.Load<GameObject>("UIResources/GameOverWindowPanel");
+        var canvas = GameObject.Find("PauseUICanvas");
+        Instantiate(resource, canvas.transform);
+        truckInput.brakeButton.SetActive(false);
+        truckInput.gasButton.SetActive(false);
+       // Winch.slider.enabled = false;
     }
 }
