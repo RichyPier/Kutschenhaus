@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -104,6 +105,9 @@ public class GameManager : MonoBehaviour
         Instantiate(resource, canvas.transform);
         truckInput.brakeButton.SetActive(false);
         truckInput.gasButton.SetActive(false);
-       // Winch.slider.enabled = false;
+        // OK1: Slider slider = canvas.GetComponentInChildren<Slider>();
+        // OK1: slider.interactable = false;
+        winch.slider.interactable = false;
+        // OK3: Winch.Instance.slider.interactable = false; // dazu in Winch.cs die Awake Methode und public static Winch Instance
     }
 }

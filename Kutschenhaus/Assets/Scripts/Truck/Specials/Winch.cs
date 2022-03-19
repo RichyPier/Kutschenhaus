@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Winch : MonoBehaviour
 {
     [SerializeField] float rotationSpeed;
-    [SerializeField] Slider slider;
+    [SerializeField] public Slider slider;
     [SerializeField] Transform roller;
     [SerializeField] GameObject anchorPrefab;
     [SerializeField] GameObject anchor;
@@ -15,6 +15,12 @@ public class Winch : MonoBehaviour
     [SerializeField] float winchForce;
     LineRenderer line;
     Rigidbody2D rB;
+    // public static Winch Instance;
+
+    // public void Awake()
+    // {
+    //     Instance = this;
+    // }
 
     private void Start()
     {
