@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6931243727080612956}
   - component: {fileID: 1868514622837101946}
   - component: {fileID: 4771271072006640896}
+  - component: {fileID: 3427084699658318876}
   m_Layer: 0
-  m_Name: WoodPlank
+  m_Name: WoodPlank_Audio_Listener
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,3 +110,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.046875, y: 0.3828125}
   m_EdgeRadius: 0
+--- !u!81 &3427084699658318876
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015854662717967959}
+  m_Enabled: 1
