@@ -12,8 +12,16 @@ public class GenericWindow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (FindObjectsOfType<GenericWindow>().Length > 1)
-            Destroy(gameObject);
+        var windows = FindObjectsOfType<GenericWindow>();
+
+        foreach (var window in windows)
+        {
+            if (window != this)
+                Destroy(window.gameObject);
+        }
+        
+     //  if (FindObjectsOfType<GenericWindow>().Length > 1)
+     //      Destroy(gameObject);
 
         closeButton.onClick.AddListener(Close);
         StartCoroutine(OpenAnimation());

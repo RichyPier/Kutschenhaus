@@ -19,6 +19,9 @@ public class SaveData
     [Space(10)]
     public int coins;
 
+    [Space(10)]
+    public int adPrivacy = -1;
+
     // ToDo: other saved data
 }
 
@@ -46,6 +49,16 @@ public class SaveManager : MonoBehaviour
     public void SetCoins(int coins)
     {
         saveData.coins = coins;
+    }
+
+    public void SetAdPrivacy(int adPrivacy)
+    {
+        saveData.adPrivacy = adPrivacy;
+    }
+
+    public int GetAdPrivacy()
+    {
+        return saveData.adPrivacy;
     }
 
     public int GetCoins()

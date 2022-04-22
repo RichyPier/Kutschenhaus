@@ -1589,6 +1589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodPlank
       objectReference: {fileID: 0}
+    - target: {fileID: 2015854662717967959, guid: f2aed7a5a18edf3498fc73d83ddbc4cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6931243727080612956, guid: f2aed7a5a18edf3498fc73d83ddbc4cf, type: 3}
       propertyPath: m_RootOrder
       value: 6

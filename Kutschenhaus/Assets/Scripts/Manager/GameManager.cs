@@ -100,7 +100,17 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        var resource = Resources.Load<GameObject>("UIResources/GameOverWindowPanel");
+        ShowWindow("UIResources/GameOverWindowPanel");
+    }
+
+    public void Victory()
+    {
+        ShowWindow("UIResources/VictoryWindowPanel");
+    }
+
+    void ShowWindow(string resourceName)
+    {
+        var resource = Resources.Load<GameObject>(resourceName);
         var canvas = GameObject.Find("PauseUICanvas");
         Instantiate(resource, canvas.transform);
         truckInput.brakeButton.SetActive(false);
@@ -110,4 +120,5 @@ public class GameManager : MonoBehaviour
         winch.slider.interactable = false;
         // OK3: Winch.Instance.slider.interactable = false; // dazu in Winch.cs die Awake Methode und public static Winch Instance
     }
+
 }
