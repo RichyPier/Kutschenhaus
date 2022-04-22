@@ -7,7 +7,6 @@ public class EffectOnTrigger : MonoBehaviour
     [SerializeField] ParticleSystem particle;
     [SerializeField] EasyTransition moveTransition;
     [SerializeField] EasyTransition fadeOutTransition;
-    [SerializeField] AudioSource collectSound;
     [SerializeField] string triggerTagName;
     [SerializeField] string targetTagName;
 
@@ -49,11 +48,6 @@ public class EffectOnTrigger : MonoBehaviour
             if (particle != null)
             {
                 particle.Play();
-            }
-
-            if (collectSound != null)
-            {
-                collectSound.Play();
             }
 
         }

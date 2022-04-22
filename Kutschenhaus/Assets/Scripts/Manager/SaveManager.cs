@@ -22,6 +22,11 @@ public class SaveData
     [Space(10)]
     public int adPrivacy = -1;
 
+    [Range(0, 1)]
+    public float musicVolume;
+    [Range(0, 1)]
+    public float sfxVolume;
+
     // ToDo: other saved data
 }
 
@@ -76,6 +81,26 @@ public class SaveManager : MonoBehaviour
         return saveData.upgradeLevel;
     }
 
+    public void SetSfxVolume(float volume)
+    {
+        saveData.sfxVolume = volume;
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        saveData.musicVolume = volume;
+    }
+
+    public float GetSfxVolume()
+    {
+        return saveData.sfxVolume;
+    }
+
+    public float GetMusicVolume()
+    {
+        return saveData.musicVolume;
+    }
+
     void Load()
     {
         if (File.Exists(path))
@@ -85,8 +110,6 @@ public class SaveManager : MonoBehaviour
             JsonUtility.FromJsonOverwrite(jsonStr, saveData);
         }
     }
-
-
 
     void Save()
     {
